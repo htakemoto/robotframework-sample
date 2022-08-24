@@ -1,32 +1,44 @@
+# macOS
+.DS_Store
+
+# Miscs
+.env*
 tmp
 build
 dist
 target
-venv*
-.venv*
-.env
-*~
-MANIFEST
-atest/results
-utest/jasmine-results
+output
+
+# IDE
+*.iml
 .idea
 .vscode
 .*project
+.classpath
+.settings
+
+#######################################################################################
+# Python
+#######################################################################################
+
+venv*
+.venv*
 *.pyc
 *$py.class
 ext-lib
-*.iml
-.DS_Store
+__pycache__
+.jython_cache
+.mypy_cache/
+
+#######################################################################################
+# Robot Framework
+#######################################################################################
+
+log.html
+output.xml
+report.html
 doc/api/_build
 doc/libraries/*.html
 doc/libraries/*.json
 doc/userguide/RobotFrameworkUserGuide.html
 src/robotframework.egg-info
-log.html
-output.xml
-report.html
-__pycache__
-.classpath
-.settings
-.jython_cache
-.mypy_cache/
